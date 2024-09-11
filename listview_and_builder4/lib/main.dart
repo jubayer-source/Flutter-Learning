@@ -13,6 +13,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Homepage(),
-      ); // This trailing comma makes auto-formatting nicer for build methods.
+    ); // This trailing comma makes auto-formatting nicer for build methods.
   }
 }
