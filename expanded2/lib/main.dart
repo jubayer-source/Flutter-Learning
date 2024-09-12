@@ -1,4 +1,4 @@
-import 'package:expanded2/expanded.dart';
+import 'package:expanded2/exPanded.dart';
 import 'package:flutter/material.dart';
 
 void main() {
