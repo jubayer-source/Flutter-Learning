@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:image_asset_6/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -7,25 +8,13 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const Homepage(); // Make sure to add "const" if Homepage is constant
-  }
-}
-
-class Homepage extends StatelessWidget {
-  const Homepage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Container(
-          height: 300,
-          width: 250,
-          child: Image.asset('lib/images/screenshot.jpg'), // Ensure the image path is correct
-        ),
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Homepage(),
     );
+      
   }
 }

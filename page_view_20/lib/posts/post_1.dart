@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+
+class MyPost1 extends StatelessWidget {
+  const MyPost1({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.amber,
+      body: Center(
+        child: Text(
+          "Page 1",
+          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+        ),
+      ),
+    );
+  }
+}
